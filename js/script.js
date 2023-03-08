@@ -18,6 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
         const orderID = Math.round(Math.random() * 100)
 
-        
+        document.getElementById('order-id').innerHTML = orderID
+        document.getElementById('order-price').innerHTML = `${pizzaPrice} Ft`
     })
 })
