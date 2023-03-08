@@ -20,5 +20,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
         document.getElementById('order-id').innerHTML = orderID
         document.getElementById('order-price').innerHTML = `${pizzaPrice} Ft`
+
+        document.getElementById('order-alert').style.display = ''
     })
 })
