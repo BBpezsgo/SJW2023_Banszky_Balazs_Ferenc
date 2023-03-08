@@ -37,13 +37,47 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container" id="order-form">
         <h1 class="google-font">Pizzarendelés</h1>
+        <form>
+            <div class="form-group">
+                <label for="pizza-type">Pizza típus</label>
+                <select class="form-control">
+                    <option>Válasszon egyet!</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="count">Darabszám</label>
+                <input type="number" class="form-control" id="count" min="1">
+            </div>
+            <span>Extrák</span>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="cheese">
+                <label class="form-check-label" for="cheese">Sajt</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="ham">
+                <label class="form-check-label" for="ham">Sonka</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="corn">
+                <label class="form-check-label" for="corn">Kukorica</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="mushroom">
+                <label class="form-check-label" for="mushroom">Gomba</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="chili">
+                <label class="form-check-label" for="chili">Chili paprika</label>
+            </div>
+            <button type="submit" class="btn btn-success">Megrendelem</button>
+        </form>
     </div>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
 </body>
 

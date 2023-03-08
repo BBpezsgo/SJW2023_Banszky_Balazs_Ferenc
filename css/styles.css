@@ -20,10 +20,12 @@ h1 {
     font-size: 7em;
     font-variant: small-caps;
     text-align: center;
+    color: var(--zold);
 }
 
 h2 {
     font-size: 3em;
+    color: var(--zold);
 }
 
 @media (max-width: 768px) {
@@ -56,7 +58,7 @@ body > div.main-content {
 
 div.main-content > div,
 body > div.container {
-    background-color: #fff6;
+    background-color: #fffa;
 }
 
 .highlighted-section {
@@ -89,4 +91,8 @@ nav, footer {
 
 #wiki-link:hover {
     color: #000;
+}
+
+#order-form {
+    padding: 0 20%;
 }
