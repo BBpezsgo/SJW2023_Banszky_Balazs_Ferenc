@@ -4,3 +4,89 @@
     --piros: #81150b;
     --vilagos-sarga: #ffeccb;
 }
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-image: url('../img/bg_pizza.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 7em;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+}
+
+ul {
+    list-style: url('../img/pizza_icon.png');
+}
+ul > li {
+    line-height: 30px;
+}
+
+ul > li .pizza-kiemeles {
+    color: var(--sotet-zold);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main-content p {
+    line-height: 200%;
+    text-indent: 15px;
+}
+
+body > div.main-content {
+    padding: 0 60px;
+}
+
+div.main-content > div,
+body > div.container {
+    background-color: #fff6;
+}
+
+.highlighted-section {
+    border: double var(--zold);
+    background-color: var(--vilagos-sarga);
+    margin: 0 10%;
+}
+
+img#pizza-thumbnail {
+    box-shadow: var(--zold) 2px 2px 5px;
+}
+
+figure > figcaption {
+    font-style: italic;
+    text-align: center;
+    color: #000;
+}
+
+nav, footer {
+    background-color: var(--piros);
+}
+
+#wiki-link {
+    color: #fff;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#wiki-link:hover {
+    color: #000;
+}
